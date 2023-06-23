@@ -1,5 +1,11 @@
 :root {
   font-size: 62.5%;
+  --font-family-OpenSans: 'Open Sans', sans-serif;
+  --font-family-Dosis: 'Dosis', sans-serif;
+  --blue-color: #3f3d56;
+  --pink-color: #ee24ff;
+  --gray-color: #828282;
+  --white-color: #eceff2;
 }
 
 * {
@@ -9,5 +15,43 @@
 }
 
 body {
-  font-size: 1.4rem;
+  overflow: hidden;
+
+  width: 102.4rem;
+  padding: 6.4rem 0rem 0rem 0rem;
+
+  margin: 0 auto;
+  font-family: var(--font-family-OpenSans);
+  color: var(--gray-color);
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+
+.hero {
+  width: 62.2rem;
+  margin: 3.2rem auto 0;
+}
+
+h1 {
+  color: var(--blue-color);
+  font-size: 3rem;
+  margin-bottom: 1.6rem;
+}
+
+span {
+  font-weight: bold;
+  color: var(--pink-color);
+}
+
+p {
+  line-height: 2.2rem;
+}
+
+.hero p + p {
+  margin-top: 3.2rem;
+}
+
+.footer {
+  margin-top: 6.4rem;
 }
