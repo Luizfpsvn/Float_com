@@ -96,7 +96,7 @@ a:hover {
   transform: scale(1.2);
 }
 
-.wave {
+#wave {
   width: 100%;
   position: fixed;
   bottom: 0;
